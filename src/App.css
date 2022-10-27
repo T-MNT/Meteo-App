@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+body {
+  background: #6e85b7;
+}
+
+header {
+  margin: 20px 0px;
+}
+
+header::after {
+  height: 2px;
+  width: 75%;
+  background: #232d3c32;
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  color: #232d3c;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: auto;
+}
+
+.form-container label {
+  color: rgb(151, 16, 16);
+
+  font-weight: bold;
+}
+
+.label-input-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+}
+
+.fav-input-container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  position: relative;
+}
+.label-input-container span {
+  position: absolute;
+  left: -25px;
+  cursor: pointer;
+}
+input[type='text'] {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 5px 0px;
+  outline: none;
+  text-align: center;
+  font-size: 1.1rem;
+  border: 3px solid #314058;
+  color: #3c3a23;
+  font-weight: 600;
+}
+input[type='submit'] {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1rem;
+  border: 3px solid #314058;
+  color: #232d3c;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.favoris {
+  width: 300px;
+  margin: 15px auto;
+  color: #232d3c;
+}
+
+.favoris ul {
+  list-style: none;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.favoris li {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 5px 0px 0px 0px;
+}
+
+.favoris li p {
+  cursor: pointer;
+
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  user-select: none;
+}
+
+.favoris li span {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+
+#say {
+  font-size: 1.5rem;
+  color: #232d3c;
+}
+
+.previsions {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0px;
+  justify-content: center;
+  margin-top: 40px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.previsions li {
+  margin: 25px;
+}

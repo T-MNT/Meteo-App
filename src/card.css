@@ -1,0 +1,33 @@
+.card h1 {
+  font-size: 1.1rem;
+  margin: 0px;
+}
+
+.card {
+  border: 3px solid #5f6f94;
+  width: 300px;
+  height: 340px;
+  padding: 30px 10px;
+  background: #fbf2cf;
+  border-radius: 5px;
+  color: #2d4263;
+}
+
+.card ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+
+.card-ul li {
+  margin: 10px 0px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card img {
+  width: 180px;
+  height: 140px;
+  margin: auto;
+  margin: 20px 0px;
+}
